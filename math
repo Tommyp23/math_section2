@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+
+var op   = process.argv[2],
+	num1 = +process.argv[3],
+	num2 = +process.argv[4],
+	num3 = Number(process.argv[5]);
+
+if ("add" === op ) 
+if (op == "add")  {
+	console.log(num1 + num2 + num3);
+}
+
+if ("subtract" === op )
+if (op === "subtract") {
+	console.log(num1 - num2 - num3);
+}
+
+if ("multiply" === op )
+if (op === "multiply") {
+	console.log(num1 * num2 * num3);
+}	
