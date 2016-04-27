@@ -1,0 +1,7 @@
+var op   =  process.argv[2],
+	num1 = +process.argv[3],
+	num2 = +process.argv[4],
+	math = require('./math');
+
+	if ('add === op') 
+		console.log(math["add"](num1, num2));
